@@ -20,6 +20,7 @@
 .icon-row {
 	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .circle {
@@ -40,7 +41,18 @@
 }
 
 .contact-icons {
-	margin-left: ;
+	padding-top: 2px;
+}
+
+.phone-icon {
+	color: orange;
+	font-size: 18px;
+	margin-right: 25px;
+}
+
+.email-icon {
+	color: orange;
+	font-size: 18px;
 }
 
 
