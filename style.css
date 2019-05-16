@@ -50,6 +50,13 @@
 	margin-right: 25px;
 }
 
+.phone-icon:hover {
+	color: #BF5A2E;
+}
+
+.email-icon:hover {
+	color: #BF5A2E;
+}
 .email-icon {
 	color: orange;
 	font-size: 18px;
