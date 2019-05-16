@@ -5,6 +5,11 @@
 
 /* TOP BAR */
 
+.wrapper {
+	width: 100%;
+	padding: 0 20px;
+}
+
 .top-bar {
 	background-color: #fafafa;
 	height: 70px;
@@ -13,7 +18,8 @@
 }
 
 .icon-row {
-	padding-left: 20px;
+	display: flex;
+	justify-content: space-between;
 }
 
 .circle {
@@ -31,6 +37,10 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.contact-icons {
+	margin-left: ;
 }
 
 
