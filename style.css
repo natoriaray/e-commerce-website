@@ -48,24 +48,44 @@
 	color: orange;
 	font-size: 18px;
 	margin-right: 25px;
+	-webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.phone-icon:active {
+	-webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
 }
 
 .phone-icon:hover {
 	color: #BF5A2E;
+	transition: 0.3s;
+}
+
+.email-icon {
+	color: orange;
+	font-size: 18px;
+	-webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
 }
 
 .email-icon:hover {
 	color: #BF5A2E;
 }
-.email-icon {
-	color: orange;
-	font-size: 18px;
-}
-
 
 ion-icon {
 	font-size: 16px;
 	color: white;
+	-webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
 }
 
 ion-icon:hover {
