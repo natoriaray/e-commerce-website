@@ -7,11 +7,9 @@ html, body {
 	width: 100%;
 }
 
-
 header {
 	padding: 0px 20px;
 }
-
 
 /* TOP BAR */
 
@@ -110,4 +108,8 @@ ul li {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+}
+
+.menu-icon {
+	color: black;
 }
