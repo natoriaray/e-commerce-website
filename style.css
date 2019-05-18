@@ -1,14 +1,11 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: Muli;
 }
 
 html, body {
 	width: 100%;
-}
-
-header {
-	padding: 0px 20px;
 }
 
 /* TOP BAR */
@@ -104,12 +101,27 @@ ul li {
 	list-style: none;
 }
 
+header {
+	height: 45px;
+	padding: 30px 20px;
+	display: flex;
+	align-items: center;
+}
+
+/*BANNER*/
 .brand-row {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+}
+
+h1 a {
+	text-decoration: none;
+	color: black;
+	font-size: 28px;
 }
 
 .menu-icon {
+	margin-left: 160px;
 	color: black;
+	font-size: 24px;
 }
