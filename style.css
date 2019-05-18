@@ -3,6 +3,14 @@
 	padding: 0;
 }
 
+html, body {
+	width: 100%;
+}
+
+
+header {
+	position: absolute;
+}
 /* TOP BAR */
 
 .wrapper {
@@ -94,4 +102,10 @@ ion-icon:hover {
 
 ul li {
 	list-style: none;
+}
+
+.brand-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
