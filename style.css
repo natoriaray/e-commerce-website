@@ -102,16 +102,17 @@ ul li {
 }
 
 header {
-	height: 45px;
-	padding: 30px 20px;
+	height: 100px;
+	padding: 0 20px;
 	display: flex;
 	align-items: center;
 }
 
 /*BANNER*/
 .brand-row {
+	width: 100%;
 	display: flex;
-	align-items: center;
+	justify-content: space-between;
 }
 
 h1 a {
@@ -121,7 +122,6 @@ h1 a {
 }
 
 .menu-icon {
-	margin-left: 160px;
 	color: black;
 	font-size: 24px;
 	padding-top: 5px;
@@ -129,8 +129,10 @@ h1 a {
 
 /*IMAGE BANNER*/
 
-.banner-img {
-	height: 100%;
+.index-banner {
+	width: 100%;
+	height: calc(100vh - 170px);
 	background-image: url("images/banner_image.jpg");
+	background-position: center;
 	background-size: cover;
 }
