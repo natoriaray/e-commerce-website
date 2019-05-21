@@ -131,8 +131,14 @@ h1 a {
 
 .index-banner {
 	width: 100%;
-	height: calc(100vh - 170px);
+	height: calc(100vh - 60px);
 	background-image: url("images/banner_image.jpg");
-	background-position: center;
 	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+/*OUR PRODUCTS SECTION*/
+.products-section {
+	height: 1000px;
 }
