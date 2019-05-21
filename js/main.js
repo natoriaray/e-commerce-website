@@ -1,0 +1,2 @@
+/*Stellar plugin*/
+$(window).stellar();
