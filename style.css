@@ -131,7 +131,7 @@ h1 a {
 
 .index-banner {
 	width: 100%;
-	height: calc(100vh - 60px);
+	height: 100vh;
 	background-image: url("images/banner_image.jpg");
 	background-size: cover;
 	background-position: center;
