@@ -134,8 +134,9 @@ h1 a {
 	height: calc(100vh - 60px);
 	background-image: url("images/banner_image.jpg");
 	background-size: cover;
-	background-position: center;
+	background-position: center top;
 	background-repeat: no-repeat;
+
 }
 
 /*OUR PRODUCTS SECTION*/
