@@ -1,2 +1,2 @@
 /*Stellar plugin*/
-$(window).stellar();
+$(window).stellar({horizontalScrolling: false});
